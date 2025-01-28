@@ -50,7 +50,7 @@ git show <id of commit>
 git show HEAD 		# last commit
 git show HEAD~1 	# one step back of last commit
 
-# to see the brances
+# if you want to see the brances
 git branch
 git -b branch-name 				# create a new branch
 git branch -d branch-name 		# create a new branch
