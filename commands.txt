@@ -1,31 +1,31 @@
 # Gysgaca aydandamyzda
-git add . 			- hemme tazelikleri gosyar
+git add . 			  - hemme tazelikleri gosyar
 git commit -m "" 	- commit etya (commit is a snapshot of your programm in particular time, ~ think it as screenshot)
-git status  		- edilen uytgesmeleri we umuman projecty barlayar
-git push 			- tazeligi pull etya, ~ yagny gosyar
-git pull 			- basga birinin eden tazeligini gosyar
+git status  		  - edilen uytgesmeleri we umuman projecty barlayar
+git push 			    - tazeligi pull etya, ~ yagny gosyar
+git pull 			    - basga birinin eden tazeligini gosyar
 
-# Create git repository
+# Creates git repository
 git init
 
-# To see the working status of the working directory and the staging area
+# if you want to see the working status of the working directory and the staging area
 git status
 
 # if you want to add code to staging area
-git add . 						-> adds all code
-git add *.html 					-> adds all html files
-git add file.html 				-> adds the file that you write
+git add . 						        -> adds all code
+git add *.html 					      -> adds all html files
+git add file.html 				    -> adds the file that you write
 git add file.html file2.html	-> adds multiple files
 
-# if you want to commit write 
+# if you want to commit & write message 
 git commit
 git commit -m "Your message here"
 git commit -m "Short message" -m "Long description of what you did"
 
-# Commit and add modified files
+# Commit and add modified files (in one line)
 git commit -a -m "Or you can write together like -am"
 
-# To view what you have in your staging area
+# if you want to view what you have in your staging area
 git ls-files
 
 # if you want to remove file from staging area and working
@@ -42,19 +42,19 @@ git diff --staged
 
 # if you want to see the history of the repository
 git log
-git log --oneline 				#  if you want to see the history simply
+git log --oneline 				    # if you want to see the history simply
 git log --oneline --reverse 	# tersinden gormek ucin (koneden taza)
 
 # if you want to see what changed in commit than
 git show <id of commit>
-git show HEAD 		# last commit
-git show HEAD~1 	# one step back of last commit
+git show HEAD 		        # last commit
+git show HEAD~1 	        # one step back of last commit
 
 # if you want to see the brances
 git branch
-git -b branch-name 				# create a new branch
+git -b branch-name 				    # create a new branch
 git branch -d branch-name 		# create a new branch
-git checkout branch-name 	# go to the onether branch
+git checkout branch-name 	    # go to the onether branch
 
 # if you want to see the difference in another branch
 git diff branch-name
@@ -69,5 +69,5 @@ git merge branch-name
 git reset file.txt
 
 # if you want to reset the commit 
-git reset <id of commit> 		# but in this your editor will show the latest updates also
+git reset <id of commit> 		    # but in this your editor will show the latest updates also
 fit reset -hard <id of commit>  # when you do this your code will return to id of your commiting (commidyny onki yagdaya getirya)
