@@ -1,8 +1,8 @@
-Gysgaca aydanda
+# Gysgaca aydandamyzda
 git add . 			- hemme tazelikleri gosyar
-git commit -m "" 	- commit etya
-git status  		- barlayar
-git push 			- tazeligi pull etya yagny gosyar
+git commit -m "" 	- commit etya (commit is a snapshot of your programm in particular time, ~ think it as screenshot)
+git status  		- edilen uytgesmeleri we umuman projecty barlayar
+git push 			- tazeligi pull etya, ~ yagny gosyar
 git pull 			- basga birinin eden tazeligini gosyar
 
 # Create git repository
